@@ -5,6 +5,21 @@ title {color: black;font-family:arial;}
 h1 {color:black;font-family:arial;}
 h2 {color:black;font-family:arial;}
 p {color:black;font-family:arial;}
+/*add a black background color to the top navigation */
+.topnav {
+  background_color: black
+    overflow: hidden;
+}
+/*style the links inside the navigation bar*/
+.topnav a{
+  float: left;
+  display:block;
+  color: black;
+  text-alight:center
+    padding:14px 16px;
+  text-decoration: none;
+  font-size; 17px;
+}
 
 
 
