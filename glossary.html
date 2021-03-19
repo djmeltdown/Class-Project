@@ -1,1 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<h1>Miniature Painting Glossary</h1>
+<p>I've compiled a list of technical terms relating to the hobby. I hope you find it useful.</p>
+
+<div class="row">
+  <div class="column" style="background-color:#lightskyblue;">
+    <h2>Terms</h2>
+    <p><li><b>Base Coat:</b> This is the first coat of paint you put on the miniature.</li>
+<li><b>Blending:</b> the process of creating a gradient color between two paints.</li>
+<li><b>Dry Brushing:</b> This is a highlighting technique. After the brush is dipped in paint, all of the medium is 
+brushed off on a paper towel, leaving only the pigment. Then, the brush is quickly swept back and forth across
+a textured part of a scult. This is very quick!</li>
+<li><b>Edge Highlight:</b> This is the process of taking the brightest color and running the side of the brush along
+the edges of the miniature.</li>
+<li><b>Glazing:</b> This is a product as well as a technique. After you have painted and highlighted your mini, you can 
+apply a glaze of the same color over the entire area. This will create a richer look to the mini</li>
+<li><b>Highlighting:</b> This is the process of applying a lighter color over a darker color to simulate light</li>
+<li><b>Layering:</b> This is the process of applying a layer of paint over another layer of paint to build up color overtime, eventually 
+reaching a highlight.</li>
+<li><b>NMM (Non-Metallic Metal):</b> This painting technique uses non-metallic colors to create a metallic looking effect.</li>
+</p>
+  </div>
+  <div class="column" style="background-color:#lightskyblue;">
+    <h2></h2>
+    <p><li><b>OSL (Object Source Lighting):</b> When your mini has a light source on it, like a headlight or lightsaber, 
+you paint the appearance of light from the source onto the miniature, creating the illusion of a lightsource.</li>
+<li><b>Priming:</b> Applying a primer to your mini will help the paint stick better. Just like priming a car.</li>
+<li><b>Sealer/Varnish:</b> A protective layer applied to the miniature.</li>
+<li><b>Shading:</b> Applying color in some form to darken another color.</li>
+<li><b>Washing:</b> A special type of paint that is very watery. </li>
+<li><b>Wet Blending:</b> The process of blending two colors together when they are wet.</li>
+<li><b>Wet Palette:</b> A special kind of paint palette that has a sponge in it to keep your paints from drying out.</li>
+<li><b>Zenithal Lighting:</b> After the miniature has been primed you take white primer and spray the mini from above,
+then you go about painting as usual. The undercoat of white will cause those paints applied over it to be brighter.</li></p>
+  </div>
+</div>
+
+</body>
+</html>
 
