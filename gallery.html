@@ -1,19 +1,8 @@
 <!DOCTYPE html>
 <html>
-<title>W3.CSS</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Gallery</title>
 <link rel="stylesheet" href="mystyle.css">
-  <div class="gallery"></div>
-  
-  <style>
- .gallery{
-   display: grid;
-   grid-template-columns:repeat (8,1fr);
-   grid-template-rows: repeat(8, 5vw);
-   grid-gap:15px;
-    }
-</style>
- <header>
+  <header>
     <nav>
       <ul class="nav_links">
         <li><a href="index.html">Home</a></li>
@@ -25,131 +14,70 @@
     </nav>
   </header>
 <body>
-<div class="gallery-grid">
-  <figure class="gallery-frame">
-    <img class="gallery-img" src="https://i.ibb.co/StVM5xw/bobafett.png" alt="bobafett" title="bobafett">
-    <figcaption>Boba Fett</figcaption>
-  </figure>
-<div class="gallery-grid">
-  <figure class="gallery-frame">
-    <img class="gallery-img" src="https://i.ibb.co/bQG1KtR/murne.png" alt="murne" title="murne">
-    <figcaption>Murne Rin</figcaption>
-  </figure>
-<div class="gallery-grid">
-  <figure class="gallery-frame">
-    <img class="gallery-img" src="https://i.ibb.co/SBLb2t0/onar.png" alt="onar" title="onar">
-    <figcaption>Onar Koma</figcaption>
-  </figure>
-<div class="gallery-grid">
-  <figure class="gallery-frame">
-    <img class="gallery-img" src="https://i.ibb.co/THGcs7m/onarclose.png" alt="onarclose" title="onarc">
-    <figcaption>Close up details on Onar Koma</figcaption>
-  </figure>
-<div class="gallery-grid">
-  <figure class="gallery-frame">
-    <img class="gallery-img" src="https://i.ibb.co/GHPY6Xn/minotaur.png" alt="mino" title="mino">
-    <figcaption>Bloodseeker Minotaur Roaming Monster</figcaption>
-  </figure>
-<div class="gallery-grid">
-  <figure class="gallery-frame">
-    <img class="gallery-img" src="https://i.ibb.co/bPyXdc8/lordtusk.png" alt="lordtusk" title="lordtusk">
-    <figcaption>Lord Tusk Roaming Monster</figcaption>
-  </figure>
-<div class="gallery-grid">
-  <figure class="gallery-frame">
-    <img class="gallery-img" src="https://i.ibb.co/44j8ghp/irongolem.png" alt="iron" title="iron">
-    <figcaption>Iron Golem Roaming Monster</figcaption>
-  </figure>
-<div class="gallery-grid">
-  <figure class="gallery-frame">
-    <img class="gallery-img" src="https://i.ibb.co/TKJ002t/halforc.png" alt="orc" title="orc">
-    <figcaption>Half-Orc Barbarian</figcaption>
-  </figure>
-<div class="gallery-grid">
-  <figure class="gallery-frame">
-    <img class="gallery-img" src="https://i.ibb.co/27C6pnq/grazandpug.png" alt="graz" title="graz">
-    <figcaption>Graz and Prug Roaming Monster</figcaption>
-  </figure>
-<div class="gallery-grid">
-  <figure class="gallery-frame">
-    <img class="gallery-img" src="https://i.ibb.co/QKwCCqG/earthelemental.png" alt="elemental" title="elemental">
-    <figcaption>Earth Elemental</figcaption>
-  </figure>
-<div class="gallery-grid">
-  <figure class="gallery-frame">
-    <img class="gallery-img" src="https://i.ibb.co/TPbVVmG/dicewizard.png" alt="dicewizard" title="dicewizard">
-    <figcaption>Dice Wizard</figcaption>
-  </figure>
+<style>
 
-<div class="gallery-grid">
-  <figure class="gallery-frame">
-    <img class="gallery-img" src="https://i.ibb.co/ysFw6pb/pig.png" alt="dicewizard" title="dicewizard">
-    <figcaption>Dice Wizard</figcaption>
-  </figure>
+.row {
+  display: flex;
+  justify-content: center;
+  flex-wrap: none;
+  padding: 4px 4px;
+}
 
-
-
-<div class="gallery-grid">
-  <figure class="gallery-frame">
-    <img class="gallery-img"><img src="https://i.ibb.co/KLSkgZ8/rancor.png" alt="Rancor" title="rancor">
-    <figcaption>Rancor</figcaption>
-  </figure>
-
-<div class="gallery-grid">
-  <figure class="gallery-frame">
-    <img class="gallery-img"><img src="https://i.ibb.co/3WhPd9k/ruinedtower.png" alt="tower" title="tower">
-    <figcaption>Ruined Tower terrain, hand-built</figcaption>
-  </figure>
-
-<div class="gallery-grid">
-  <figure class="gallery-frame">
-    <img class="gallery-img"><img src="https://i.ibb.co/K9sc9mt/seigebreaker.png" alt="orc" title="orc">
-    <figcaption>Siege Breaker Orc Abomination</figcaption>
-  </figure>
-
-<div class="gallery-grid">
-  <figure class="gallery-frame">
-    <img class="gallery-img"><img src="https://i.ibb.co/yyJZwY0/snowtroopers.png" alt="snowtrooper" title="st">
-    <figcaption>Snowtrooper</figcaption>
-  </figure>
-
-<div class="gallery-grid">
-  <figure class="gallery-frame">
-    <img class="gallery-img"><img src="https://i.ibb.co/t2x5tsN/terrain.png" alt="ruins" title="ruins">
-    <figcaption>Ancient Ruins terrain, hand-built</figcaption>
-  </figure>
-
-<div class="gallery-grid">
-  <figure class="gallery-frame">
-    <img class="gallery-img"><img src="https://i.ibb.co/RjkTnMb/thrawn.png" alt="gat" title="gat">
-    <figcaption>Grand Admiral Thrawn</figcaption>
-  </figure>
-
-<div class="gallery-grid">
-  <figure class="gallery-frame">
-    <img class="gallery-img"><img src="https://i.ibb.co/5BnWkqp/assassindroid.png" alt="droid" title="droid">
-    <figcaption>HK-47 Assassin Droid</figcaption>
-  </figure>
-
-<div class="gallery-grid">
-  <figure class="gallery-frame">
-    <img class="gallery-img"><img src="https://i.ibb.co/BqW8L7Q/assualtdroid.png" alt="sentry" title="sentry">
-    <figcaption>Imperial Sentry Droid</figcaption>
-  </figure>
-
-<div class="gallery-grid">
-  <figure class="gallery-frame">
-    <img class="gallery-img"><img src="https://i.ibb.co/wR8dzJK/bantha.png" alt="bantha" title="bantha">
-    <figcaption>Bantha Rider</figcaption>
-  </figure>
-
-<div class="gallery-grid">
-  <figure class="gallery-frame">
-    <img class="gallery-img"><img src="https://i.ibb.co/km41bXc/captain.png" alt="captain" title="captain">
-    <figcaption>Captain Terro and Dewback</figcaption>
-  </figure>
+/* Create two equal columns that sits next to each other */
+.column {
+  flex: 50%;
+  padding: 10 4px;
   
+}
 
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  padding-top:0px;
+  padding-right:0px;
+  padding-bottom:0px;
+  padding-left:5px;
+}
 
+.figcaption {
+  width; 400px;
+  Text-alight: center;
+  text-indent 100px;
+  
+}
+</style>
+
+<div class="row">
+  <div class="column">
+    <figure><img src="https://i.ibb.co/GHPY6Xn/minotaur.png"><figcaption>Bloodseeker Minotaur</figcaption></figure>
+    <figure><img src="https://i.ibb.co/TKJ002t/halforc.png"><figcaption>Half-Orc Barbarian</figcaption></figure>
+    <figure><img src="https://i.ibb.co/TPbVVmG/dicewizard.png"><figcaption>Dice Wizard</figcaption></figure>
+    <figure><img src="https://i.ibb.co/3WhPd9k/ruinedtower.png"><figcaption>Ruined Tower terrain, hand built</figcaption></figure>
+    <figure><img src="https://i.ibb.co/t2x5tsN/terrain.png"><figcaption>Ancient Ruins terrain, handbuilt</figcaption></figure>
+    <figure><img src="https://i.ibb.co/BqW8L7Q/assualtdroid.png"><figcaption>Imperial Sentry Droid</figcaption></figure>
+    <figure><img src="https://i.ibb.co/km41bXc/captain.png"><figcaption>Captain Terro</figcaption></figure>
+    <figure><img src="https://i.ibb.co/wR8dzJK/bantha.png"><figcaption>Bantha Rider</figcaption></figure>
+  </div>
+  <div class="column">
+    <figure><img src="https://i.ibb.co/bPyXdc8/lordtusk.png"><figcaption>Lord Tusk</figcaption></figure>
+    <figure><img src="https://i.ibb.co/27C6pnq/grazandpug.png"><figcaption>Graz and Prug</figcaption></figure>
+    <figure><img src="https://i.ibb.co/ysFw6pb/pig.png"><figcaption>Gamorrean Guard</caption></figfigure>
+    <figure><img src="https://i.ibb.co/K9sc9mt/seigebreaker.png"><figcaption>Siege Breaker Abomination</figcaption></figure>
+    <figure><img src="https://i.ibb.co/RjkTnMb/thrawn.png"><figcaption>Grand Admiral Thrawn</figcaption></figure>
+    <figure><img src="https://i.ibb.co/StVM5xw/bobafett.png"><figcaption>Boba Fett</figcaption></figure>
+    <figure><img src="https://i.ibb.co/bQG1KtR/murne.png"><figcaption>Murne Rin</figcaption></figure>
+    
+  </div>
+  <div class="column">
+    <figure><img src="https://i.ibb.co/44j8ghp/irongolem.png"><figcaption>Iron Golem Roaming Monster</figcaption></figure>
+    <figure><img src="https://i.ibb.co/QKwCCqG/earthelemental.png"><figcaption>Earth Elemental</figcaption></figure>
+    <figure><img src="https://i.ibb.co/KLSkgZ8/rancor.png"><figcaption>Rancor</figcaption></figure>
+    <figure><img src="https://i.ibb.co/yyJZwY0/snowtroopers.png"><figcaption>Snowtroopers</figcaption></figure>
+    <figure><img src="https://i.ibb.co/5BnWkqp/assassindroid.png"><figcaption>HK-47 Assassin Droid</figcaption></figure>
+    <figure><img src="https://i.ibb.co/SBLb2t0/onar.png"><figcaption>Onar Koma</figcaption></figure>
+    <figure><img src="https://i.ibb.co/THGcs7m/onarclose.png"><figcaption>Onar Koma Details</figcaption></figure>
+
+  </div>
+  </div>
 </body>
 </html>
