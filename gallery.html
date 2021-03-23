@@ -1,9 +1,11 @@
+
+
 <!DOCTYPE html>
 <html>
 <title>Gallery</title>
 <link rel="stylesheet" href="mystyle.css">
-  <header>
-    <style>
+  
+<style>
  ul.nav_links {
   list-style-type: none;
   margin: 0;
@@ -58,83 +60,189 @@ li a:hover {
   z-index: 99; /* Make sure it does not overlap */
   border: none; /* Remove borders */
   outline: none; /* Remove outline */
-  background-color: red; /* Set a background color */
-  color: white; /* Text color */
+  background-color: black; /* Set a background color */
+  color: lightskyblue; /* Text color */
   cursor: pointer; /* Add a mouse pointer on hover */
   padding: 15px; /* Some padding */
   border-radius: 10px; /* Rounded corners */
   font-size: 18px; /* Increase font size */
 }
-
 .myBtn:hover {
   background-color: #555; /* Add a dark-grey background on hover */
 }
 </style>
+  </header>
+
 <style>
-
-.row {
-  display: flex;
-  justify-content: center;
-  flex-wrap: none;
-  padding: 4px 4px;
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 10px;
+  background-color: lightskyblue;
+  padding: 10px;
 }
 
-/* Create two equal columns that sits next to each other */
-.column {
-  flex: 50%;
-  padding: 4px 4px;
-  
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 20px;
 }
 
-.column img {
-  margin-top: 8px;
-  vertical-align: middle;
-  padding-top:0px;
-  padding-right:0px;
-  padding-bottom:0px;
-  padding-left:5px;
+.image1 {
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+.image2 {
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+.image3 {
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+.image4 {
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+.image5 {
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+.image6 {
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+.image7 {
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+.image8 {
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+.image9 {
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+.image10 {
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+.image11 {
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+.image12 {
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+.image13 {
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+.image14 {
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+.image15 {
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+.image16 {
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+.image17 {
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+.image18 {
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+.image19 {
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+.image20 {
+  grid-row-start: 1;
+  grid-row-end: 3;
 }
 
-.figcaption {
-  width; 400px;
-  Text-alight: center;
-  text-indent 100px;
-  
-}
 </style>
 <br>
-
-
-<div class="row">
-  <div class="column">
-    <figure><img src="https://i.ibb.co/GHPY6Xn/minotaur.png" width="400" height="300"><figcaption>Bloodseeker Minotaur</figcaption></figure>
-    <figure><img src="https://i.ibb.co/27C6pnq/grazandpug.png" width="400" height="300"><figcaption>Graz and Prug</figcaption></figure>
-    <figure><img src="https://i.ibb.co/TPbVVmG/dicewizard.png" width="400" height="300"><figcaption>Dice Wizard</figcaption></figure>
-    <figure><img src="https://i.ibb.co/km41bXc/captain.png" width="400" height="300"><figcaption>Captain Terro</figcaption></figure>
-    <figure><img src="https://i.ibb.co/KLSkgZ8/rancor.png" width="400" height="300"><figcaption>Rancor</figcaption></figure>
-    <figure><img src="https://i.ibb.co/wR8dzJK/bantha.png" width="400" height="500"><figcaption>Bantha Rider</figcaption></figure>
-    <figure><img src="https://i.ibb.co/TKJ002t/halforc.png" width="400" height="500"><figcaption>Half-Orc Barbarian</figcaption></figure>
-    <figure><img src="https://i.ibb.co/RjkTnMb/thrawn.png" width="450" height="500"><figcaption>Grand Admiral Thrawn</figcaption></figure>
-    <figure><img src="https://i.ibb.co/44j8ghp/irongolem.png" width="450" height="500"><figcaption>Iron Golem Roaming Monster</figcaption></figure>
-    <figure><img src="https://i.ibb.co/SBLb2t0/onar.png" width="400" height="500"><figcaption>Onar Koma</figcaption></figure>
+<body>
+<h2>My Work</h2>
+<div class="grid-container">
    
-  </div>
-  <div class="column">
-    <figure><img src="https://i.ibb.co/bPyXdc8/lordtusk.png" width="400" height="300"><figcaption>Lord Tusk</figcaption></figure>
-    <figure><img src="https://i.ibb.co/ysFw6pb/pig.png" width="400" height="300"><figcaption>Gamorrean Guard</caption></figfigure>
-    <figure><img src="https://i.ibb.co/t2x5tsN/terrain.png" width="400" height="300"><figcaption>Ancient Ruins terrain, handbuilt</figcaption></figure>
-    <figure><img src="https://i.ibb.co/K9sc9mt/seigebreaker.png" width="400" height="300"><figcaption>Siege Breaker Abomination</figcaption></figure>
-    <figure><img src="https://i.ibb.co/yyJZwY0/snowtroopers.png" width="400" height="300"><figcaption>Snowtroopers</figcaption></figure>
-    <figure><img src="https://i.ibb.co/StVM5xw/bobafett.png" width="400" height="500"><figcaption>Boba Fett</figcaption></figure>
-    <figure><img src="https://i.ibb.co/bQG1KtR/murne.png" width="400" height="500""><figcaption>Murne Rin</figcaption></figure>
-    <figure><img src="https://i.ibb.co/3WhPd9k/ruinedtower.png" width="450" height="500"><figcaption>Ruined Tower terrain, hand built</figcaption></figure>
-    <figure><img src="https://i.ibb.co/QKwCCqG/earthelemental.png" width="400" height="500"><figcaption>Earth Elemental</figcaption></figure>
-    <figure><img src="https://i.ibb.co/THGcs7m/onarclose.png" width="400" height="300"><figcaption>Onar Koma Details</figcaption></figure>
-  </div>
+<div class="image1"><figure><img src="https://i.ibb.co/GHPY6Xn/minotaur.png" width="400" height="300"><figcaption>Bloodseeker Minotaur from Massive Darkness</figure></figcaption></div>
+
+<div class="image2"><figure><img src="https://i.ibb.co/27C6pnq/grazandpug.png" width="400" height="300"><figcaption>Graz and Prug from Massive Darkness</figure></figcaption></div>
+
+<div class="image3"><figure><img src="https://i.ibb.co/TPbVVmG/dicewizard.png" width="400" height="300"><figcaption>Dice Wizard from Reaper Miniatures</figcaption></figure></div>
+
+<div id="image4"><figure><img src="https://i.ibb.co/km41bXc/captain.png" width="400" height="300"><figcaption>Captain Terro from Star Wars: Imperial Assault</figcaption></figure></div>
+
+<div id="image5"><figure><img src="https://i.ibb.co/KLSkgZ8/rancor.png" width="400" height="300"><figcaption>Rancor from Star Wars: Imperial Assault</figcaption></figure></div>
+
+<div id="image6"><figure><img src="https://i.ibb.co/bPyXdc8/lordtusk.png" width="400" height="300"><figcaption>Lord Tusk from Massive Darkness</figcaption></figure></div>
+
+<div id="image7"><figure><img src="https://i.ibb.co/TKJ002t/halforc.png" width="400" height="500"><figcaption>Half-Orc Barbarian from Reaper Miniatures</figcaption></figure></div>
+
+<div id="image8"><figure><img src="https://i.ibb.co/RjkTnMb/thrawn.png" width="450" height="500"><figcaption>Grand Admiral Thrawn from Star Wars: Imperial Assault</figcaption></figure></div>
+
+<div id="image9"><figure><img src="https://i.ibb.co/44j8ghp/irongolem.png" width="450" height="500"><figcaption>Iron Golem Roaming Monster from Massive Darkness</figcaption></figure></div>
+
+<div id="image10"><figure><img src="https://i.ibb.co/QKwCCqG/earthelemental.png" width="400" height="500"><figcaption>Earth Elemental from Massive Darkness</figcaption></figure></div>
+
+<div id="image11"><figure><img src="https://i.ibb.co/wR8dzJK/bantha.png" width="400" height="500"><figcaption>Bantha Rider from Star Wars: Imperial Assault</figcaption></figure></div>
+
+<div id="image12"><figure><img src="https://i.ibb.co/StVM5xw/bobafett.png" width="400" height="500"><figcaption>Boba Fett from Star Wars: Imperial Assault</figcaption></figure></div>
+
+<div id="image13"><figure><img src="https://i.ibb.co/t2x5tsN/terrain.png" width="400" height="300"><figcaption>Ancient Ruins terrain, custom, handbuilt</figcaption></figure></div>
+
+<div id="image14"><figure><img src="https://i.ibb.co/K9sc9mt/seigebreaker.png" width="400" height="300"><figcaption>Siege Breaker Abomination from Zombicide: Green Horde</figcaption></figure></div>
+
+<div id="image15"><figure><img src="https://i.ibb.co/yyJZwY0/snowtroopers.png" width="400" height="300"><figcaption>Snowtroopers from Star Wars: Imperial Assault</figcaption></figure></div>
+
+<div id="image17"><figure><img src="https://i.ibb.co/bQG1KtR/murne.png" width="400" height="500""><figcaption>Murne Rin from Star Wars: Imperial Assault</figcaption></figure></div>
+
+<div id="image18"><figure><img src="https://i.ibb.co/3WhPd9k/ruinedtower.png" width="450" height="500"><figcaption>Ruined Tower terrain, custom, hand built</figcaption></figure></div>
+
+<div id="image19"><figure><img src="https://i.ibb.co/SBLb2t0/onar.png" width="400" height="500"><figcaption>Onar Koma from Star Wars: Imperial Assault</figcaption></figure></div>
+
+<div id="image20"><figure><img src="https://i.ibb.co/THGcs7m/onarclose.png" width="400" height="300"><figcaption>Onar Koma Details</figcaption></figure></div>
+
+<div id="image20"><figure><img src="https://i.ibb.co/ysFw6pb/pig.png" width="400" height="300"><figcaption>Gamorrean Guard from Star Wars: Imperial Assault</caption></figfigure></div>
+
+<div id="image20"><figure><img src="https://i.ibb.co/rtTZhGv/assassindroid.png" alt="assassindroid" width="400" height="300"><figcaption>HK-47 Assassin Droid from Star Wars: Imperial Assault</caption></figfigure></div>
+
+</div>
     
 
-  </div>
-  </div>
-</body>
+
 <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+<script>
+//Get the button
+var mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+</body>
 </html>
