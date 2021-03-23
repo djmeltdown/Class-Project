@@ -22,7 +22,9 @@ justify-content: space-betweeen;
     align-items:center;
     padding:30px 10%;
 }
-
+/* link styles */
+a:link, a:visited { color: #DC6903; }
+a:focus, a:hover, a:active { color: #F9AB33; }
 .nav_links li {
   display: inline-block;
   padding:0px 20px;
@@ -32,6 +34,9 @@ justify-content: space-betweeen;
 }
 .nav_links li a:hover {
   color: darkskyblue
+}
+  nav ul li a:link, nav ul li a:visited {
+  color: #F9AB33;
 }
 button {
   padding: 9px 25px;
