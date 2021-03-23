@@ -54,6 +54,17 @@ button:hover {
 .gallery-img:hover {
   opacity: .7;
 }
-  
+li a {
+  display:flex;
+  flex-direction: row; 
+  flex-wrap: wrap; 
+  height: 25px;
+  align-items: center;
+  color: lightskyblue;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+ 
+}  
   
 
