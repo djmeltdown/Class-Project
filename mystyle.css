@@ -18,7 +18,7 @@ p {color:black;font-family:arial;}
 
   header {
     display: flex;
-justify-contnet: space-betweeen;
+justify-content: space-betweeen;
     align-items:center;
     padding:30px 10%;
 }
