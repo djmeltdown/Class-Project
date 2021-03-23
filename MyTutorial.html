@@ -172,3 +172,25 @@ and adding some effects that make it look like the figure knelt or stepped in mu
 <p>For those of you that would like to see painting in action, please watch the video below from Sorastro. He explains all the steps very well and has a lot of great techniques.</p>
 
 <iframe width="640" height="480" src="https://youtube.com/embed/EZZAQ2V4IuM"></iframe>
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+<script>
+//Get the button
+var mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
