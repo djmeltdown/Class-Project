@@ -10,7 +10,7 @@ p {color:black;font-family:arial;}
   background-color: black;
   overflow: auto;
 }
-
+h1 {text-align: center;}
 .icon-bar a {
   float: left;
   text-align: center;
@@ -26,7 +26,7 @@ p {color:black;font-family:arial;}
 }
 
 .active {
-  background-color: darkgrey; /* Add an active/current color */
+  background-color: black; /* Add an active/current color */
 }
 
 
