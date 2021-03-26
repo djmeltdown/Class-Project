@@ -5,6 +5,35 @@ title {color: black;font-family:arial;}
 h1 {color:black;font-family:arial;}
 h2 {color:black;font-family:arial;}
 p {color:black;font-family:arial;}
+.icon-bar {
+  width: 100%;  
+  background-color: black;
+  overflow: auto;
+}
+
+.icon-bar a {
+  float: left;
+  text-align: center;
+  width: 16%; 
+  padding: 12px 0; 
+  transition: all 0.3s ease; 
+  color: lightskyblue; 
+  font-size: 36px; /* Increased font size */
+}
+
+.icon-bar a:hover {
+  background-color: grey; 
+}
+
+.active {
+  background-color: darkgrey; /* Add an active/current color */
+}
+
+
+
+
+
+
 {
   box-sizing: border-box;
   margin:0;
@@ -69,4 +98,3 @@ li a {
  
 }  
   
-
