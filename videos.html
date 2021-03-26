@@ -1,44 +1,41 @@
 <!doctype html>
 <style> @import url(mystyle.css)</style>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+<style>
+  .column{float: left; width: 33.33%; padding: 10px; align-content: center;
+  }
+  
+  .row::after {content:""; clear: both;display: table
+  }
+ 
+</style>
 <header>
-    <style>
-     ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: Black;
-}
-
-li {
-  float: left;
-}
-
-li a {
-  display: block;
-  color: lightskyblue;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-/* Change the link color to #FF0000 (red) on hover */
-li a:hover {
-  background-color: #111;
-} 
-    </style>
-       <nav>
-      <ul class="nav_links">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="MyTutorial.html">Tutorial</a></li>
-        <li><a href="gallery.html">Gallery</a></li>
-        <li><a href="videos.html">Videos</a></li>
-        <li><a href="glossary.html">Glossary</a></li>
-        <li><a href="links.html">Links</a></li>
-       
-      </ul>
-    </nav>
+   <div class="icon-bar">
+        <a class="active" href="index.html"><i class="fa fa-home"></i></a> 
+        <a href="MyTutorial.html"><i class="fa fa-list-ol"></i></a>
+        <a href="gallery.html"><i class="far fa-images"></i></a>
+        <a href="videos.html"><i class="fas fa-video"></i></a>
+        <a href="glossary.html"><i class="fas fa-book"></i></a>
+        <a href="links.html"><i class="fas fa-link"></i></a>
   </header>
-
-
-<p> this page will have embedded vidoes.</p>
+  <h2>Useful Videos</h2>
+<p>I've embedded some videos that helped me get started.Mini War Gamer Jay breaks down each technique into its own video, if you like his teaching style check out the rest of his<a href="https://www.youtube.com/user/MiniwargamerJ"> YouTube</a> channel and the rest of his
+  <a href="https://www.youtube.com/playlist?list=PLB0292071C3B38CAC"> Miniature Painting 101 Series</a>.</p>
+  <div class="row">
+  <div class="column">
+  <iframe width="560" height="400" src="https://youtube.com/embed/yr0dufkF0J0"></iframe></div>  
+  <div class="column">
+  <iframe width="560" height="400" src="https://youtube.com/embed/D1ido2IUVqg"></iframe></div>  
+  <div class="column">
+  <iframe width="560" height="400" src="https://youtube.com/embed/Ke2UMbMPN9w"></iframe></div>  
+  <div class="column">
+  <iframe  width="560" height="400" src="https://youtube.com/embed/lrnQMWDA_yA"></iframe></div>  
+  <div class="column">
+  <iframe  width="560" height="400" src="https://youtube.com/embed/rsVZ3bzHLyc"></iframe></div>  
+  <div class="column">
+  <iframe  width="560" height="400" src="https://youtube.com/embed/hPziQfIRmn8"></iframe></div> 
+  
+  </div>
+  
+  <h3>Coding Notes</h3>
+  <p>This page contains iframes for embedded videos, and a div class that specifies column style</p>
