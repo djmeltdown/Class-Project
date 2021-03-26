@@ -1,40 +1,8 @@
 <!DOCTYPE html>
 <style> @import url(mystyle.css)</style>
-  <header>
-    <style>
-     ul.nav_links {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: Black;
-}
-
-.my-list-style {
-display: block;
-background-color: lightskyblue    
-list-style-type:circle;
-    color: black;
-text-decoration:
-    padding: 10px 20px;
-}
-
-li {
-  float: left;
-}
-
-li a {
-  display: block;
-  color: lightskyblue;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-/* Change the link color to #FF0000 (red) on hover */
-li a:hover {
-  background-color: #111;
-} 
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+  
+  <style>  
 .myBtn {
   display: none; /* Hidden by default */
   position: relative; /* Fixed/sticky position */
@@ -53,23 +21,33 @@ li a:hover {
 .myBtn:hover {
   background-color: #555; /* Add a dark-grey background on hover */
 }
-    </style>
-        <nav>
-      <ul class="nav_links">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="MyTutorial.html">Tutorial</a></li>
-        <li><a href="gallery.html">Gallery</a></li>
-        <li><a href="videos.html">Videos</a></li>
-        <li><a href="glossary.html">Glossary</a></li>
-        <li><a href="links.html">Links</a></li>
-       
-      </ul>
-    </nav>
+    img {border: 5px solid darkslategray;}
+    .center {
+      display: block; 
+      margin-left: auto;
+      margin-right: auto;
+     }  
+    .column2 {float: left; 
+      width: 50%;
+      padding: 5px
+    }
+    .column3 {float:left;
+      width:33.33%;
+      padding: 2px;
+      }
+    .row::after {content: ""; clear: both; display: table;
+    }
+</style>
+ <header>
+   <div class="icon-bar">
+        <a class="active" href="index.html"><i class="fa fa-home"></i></a> 
+        <a href="MyTutorial.html"><i class="fa fa-list-ol"></i></a>
+        <a href="gallery.html"><i class="far fa-images"></i></a>
+        <a href="videos.html"><i class="fas fa-video"></i></a>
+        <a href="glossary.html"><i class="fas fa-book"></i></a>
+        <a href="links.html"><i class="fas fa-link"></i></a>
   </header>
 <h1>How to Paint Miniatures</h1>
-<header>This page has been created by Chris Guild for Southwestern College CPT 422 HTML course on 3/16/2021.<br>
-It was last edited on <time datetime="2021-03-16">March 16, 2021</time><br>
-This page contains HTMl breaks, headings, paragraphs, bolds, embedded hyperlinks, and images hosted on Github.</header>
 <h2>Getting Started</h2>
 <p>There are several pre-preparation steps such as 
 <ul><ul class="my-list-style"><li>Selecting a Mini</li><br>
@@ -77,7 +55,8 @@ This page contains HTMl breaks, headings, paragraphs, bolds, embedded hyperlinks
 <li>Basing</li>and<br>
 <li>Scraping mold lines</li>
  </ul>
-For the sake of this tutorial I've already accomplished those and will move on to the actual steps once you're ready to sit down and paint.</P>
+  <p>
+For the sake of this tutorial I've already accomplished those and will move on to the actual steps once you're ready to sit down and paint.</p>
 
 <h2>My Method</h2>
 <p>I learned this over the course of a few years by mostly watching a variety of videos on YouTube and refining my steps to achieve the
@@ -97,7 +76,7 @@ but not competition level. For this tutorial I have chosen to paint the <a href=
 When priming with spray cans, make sure that you are spraying at least 10 inches away and use sweeping passes. 
 Do not get up close to the mini or keep your can stationary. This will result in too much primer and will obscure 
 details. </p> 
-<img src="https://raw.githubusercontent.com/djmeltdown/Class-Project/main/01Primed%20Mini.JPEG" width="400" height="300" alt="primedmini">
+<img src="https://raw.githubusercontent.com/djmeltdown/Class-Project/main/01Primed%20Mini.JPEG" width="400" height="300" alt="primedmini" class="center">
 
 <h2>Step 2: Apply Basecoat Colors</h2>
 <p>After the primer has dried it's time to lay down a basecoat. 
@@ -113,9 +92,12 @@ Here is a list of what I'll be using:
 <li>Pants: Citadel Steel Legion Drab</li><br>
 <li>Ammo Belt: Apple Barrel Black</li><br>
 <li>Undershirt: Citadel Ushabti Bone</li></ul><br>
-  </p><img src="https://raw.githubusercontent.com/djmeltdown/Class-Project/main/01Base%20paints.JPEG" width="200" height="300" alt="basecoatpaints">
+  </p>
+  <img src="https://raw.githubusercontent.com/djmeltdown/Class-Project/main/01Base%20paints.JPEG" width="200" height="300" alt="basecoatpaints">
+  
 <img src="https://raw.githubusercontent.com/djmeltdown/Class-Project/main/02Basecoat%20Front.JPEG" width="400" height="300" alt="basecoatfront">
-<img src="https://raw.githubusercontent.com/djmeltdown/Class-Project/main/02Basecoat%20Back.JPEG" width="400" height="300" alt="basecoatback"><br>
+<img src="https://raw.githubusercontent.com/djmeltdown/Class-Project/main/02Basecoat%20Back.JPEG" width="400" height="300" alt="basecoatback"><br/>
+   
 <caption>Here you can see that the areas of the figure have been painted with a base coat. <br></caption>
 
 <h2>Step 3: Apply Wash</h2>
@@ -177,7 +159,7 @@ and adding some effects that make it look like the figure knelt or stepped in mu
 <li>Citadel Stormhost Silver and Citadel Technical Spiritstone Red on the Goggles</li><br>
 <li>Citadel Stormhost Silver and Citadel Colour Technical Tessaract Glow for the watch</li><br>
 </ul><br> For the goggles and the watch, the technique here is lay down the Stormhost Silver first, then apply your colored paint over them. This will create a translucent lens or glowing effect.</ul>  </p>
-<img src="https://raw.githubusercontent.com/djmeltdown/Class-Project/main/06dirt.JPEG" width="400" height="300" alt="basing"><br><caption>I was out of Lustrian Undergrowth, so I mixed some sand with some Apple Barrel English Ivy, close enough! I also applied the Stirland mud to the back of the book to look like he stepped in a puddle somewhere</caption>
+<img src="https://raw.githubusercontent.com/djmeltdown/Class-Project/main/06dirt.JPEG" width="400" height="300" alt="basing" class="center"><br><caption>I was out of Lustrian Undergrowth, so I mixed some sand with some Apple Barrel English Ivy, close enough! I also applied the Stirland mud to the back of the book to look like he stepped in a puddle somewhere</caption>
 
 
 <h2>Step 6: Varnish</h2>
@@ -188,10 +170,10 @@ and adding some effects that make it look like the figure knelt or stepped in mu
 <h2>Video Guide</h2>
 <p>For those of you that would like to see painting in action, please watch the video below from Sorastro. He explains all the steps very well and has a lot of great techniques.</p>
 
-<iframe width="640" height="480" src="https://youtube.com/embed/EZZAQ2V4IuM"></iframe>
+<iframe width="640" height="480" src="https://youtube.com/embed/EZZAQ2V4IuM" class="center"></iframe>
 <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 <h3>Coding Notes</h3>
-<p>This page is comprised of headers, paragraphs, unordered lists, ordered lists, list items, hosted image sources, an iframe element to embed the video, an inline list, for the navigation bar, and a button element with some java script. 
+<p>This page is comprised of headers, paragraphs, unordered lists, ordered lists, list items, hosted image sources, an iframe element to embed the video, the navigation bar is a class with icons and a linked stylesheet from fontawesome, and a button element with some java script. 
 </p>
 
 <script>
